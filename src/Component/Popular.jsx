@@ -1,5 +1,5 @@
 import Assets from "./AssetsComponent";
-import "../assets/design/style.css";
+
 const Popular = () => {
 	return (
 		<>
@@ -10,11 +10,15 @@ const Popular = () => {
 				</div>
 				<div className="all-popular">
 					<div className="popular-card">
-						<div className="popular-nomor">1.</div>
 						<img src={Assets.testing} className="popular-image" />
 						<div className="text-popular">
-							<div className="popular-title">Magic Emperor</div>
-							<div className="popular-chapter">Chapter 206</div>
+							<div className="with-ranking">
+								<div className="split">
+									<div className="popular-title">Magic Emperor</div>
+									<div className="popular-chapter">Chapter 206</div>
+								</div>
+								<div className="popular-nomor">#1</div>
+							</div>
 							<div className="popular-description">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Reiciendis natus fugiat illo praesentium animi atque neque quae?
@@ -25,11 +29,15 @@ const Popular = () => {
 						</div>
 					</div>
 					<div className="popular-card">
-						<div className="popular-nomor">2.</div>
 						<img src={Assets.testing} className="popular-image" />
 						<div className="text-popular">
-							<div className="popular-title">Magic Emperor</div>
-							<div className="popular-chapter">Chapter 206</div>
+							<div className="with-ranking">
+								<div className="split">
+									<div className="popular-title">Magic Emperor</div>
+									<div className="popular-chapter">Chapter 206</div>
+								</div>
+								<div className="popular-nomor">#2</div>
+							</div>
 							<div className="popular-description">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Reiciendis natus fugiat illo praesentium animi atque neque quae?
@@ -40,11 +48,15 @@ const Popular = () => {
 						</div>
 					</div>
 					<div className="popular-card">
-						<div className="popular-nomor">3.</div>
 						<img src={Assets.testing} className="popular-image" />
 						<div className="text-popular">
-							<div className="popular-title">Magic Emperor</div>
-							<div className="popular-chapter">Chapter 206</div>
+							<div className="with-ranking">
+								<div className="split">
+									<div className="popular-title">Magic Emperor</div>
+									<div className="popular-chapter">Chapter 206</div>
+								</div>
+								<div className="popular-nomor">#3</div>
+							</div>
 							<div className="popular-description">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Reiciendis natus fugiat illo praesentium animi atque neque quae?
@@ -55,11 +67,15 @@ const Popular = () => {
 						</div>
 					</div>
 					<div className="popular-card">
-						<div className="popular-nomor">4.</div>
 						<img src={Assets.testing} className="popular-image" />
 						<div className="text-popular">
-							<div className="popular-title">Magic Emperor</div>
-							<div className="popular-chapter">Chapter 206</div>
+							<div className="with-ranking">
+								<div className="split">
+									<div className="popular-title">Magic Emperor</div>
+									<div className="popular-chapter">Chapter 206</div>
+								</div>
+								<div className="popular-nomor">#4</div>
+							</div>
 							<div className="popular-description">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Reiciendis natus fugiat illo praesentium animi atque neque quae?
@@ -70,11 +86,15 @@ const Popular = () => {
 						</div>
 					</div>
 					<div className="popular-card">
-						<div className="popular-nomor">5.</div>
 						<img src={Assets.testing} className="popular-image" />
 						<div className="text-popular">
-							<div className="popular-title">Magic Emperor</div>
-							<div className="popular-chapter">Chapter 206</div>
+							<div className="with-ranking">
+								<div className="split">
+									<div className="popular-title">Magic Emperor</div>
+									<div className="popular-chapter">Chapter 206</div>
+								</div>
+								<div className="popular-nomor">#5</div>
+							</div>
 							<div className="popular-description">
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Reiciendis natus fugiat illo praesentium animi atque neque quae?

@@ -5,6 +5,8 @@
 	--black: #000000;
 	--navbar-blue: #3367d6;
 	--bg-content-home: #1d1b26;
+	--popular-description: #79758a;
+	--popular-nomor: #3e3b49;
 }
 body {
 	margin: 0;
@@ -111,6 +113,9 @@ body {
 	background-color: var(--bg-content-home);
 	color: var(--white);
 }
+.title{
+	margin-left: 20px;
+}
 .all-card {
 	margin-left: 20px;
 	display: flex;
@@ -166,9 +171,11 @@ body {
 	grid-row: 1;
 	background-color: var(--bg-content-home);
 	color: var(--white);
+	padding-left: 20px;
+	padding-right: 10px;
 }
-.title {
-	margin-left: 20px;
+.popular .title{
+	margin-left: 10px;
 }
 .all-popular {
 	display: flex;
@@ -190,17 +197,30 @@ body {
 }
 .popular-card {
 	display: flex;
-	margin-left: 10px;
 	margin-bottom: 10px;
 }
 .popular-nomor {
 	color: white;
-	font-size: 12px;
+	background-color: var(--popular-nomor);
+	font-size: 20px;
+	padding: 7px;
+	border-radius: 7px;
+	margin-right: 5px;
 }
 .text-popular {
 	display: flex;
 	flex-direction: column;
 	margin-left: 16px;
+}
+.with-ranking{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.split{
+	display: flex;
+	flex-direction: column;
 }
 .popular-image {
 	margin-left: 10px;
@@ -213,7 +233,7 @@ body {
 	margin-bottom: 5px;
 }
 .popular-description{
-	color: #79758a;
+	color: var(--popular-description);
 }
 .popular-views {
 	margin: 0;

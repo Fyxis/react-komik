@@ -1,5 +1,5 @@
 import Assets from "./AssetsComponent";
-import "../assets/design/style.css";
+
 const NavbarUtils = () => {
 	return (
 		<nav className="navbar-utils">

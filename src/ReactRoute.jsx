@@ -4,9 +4,9 @@ import {
 	Route,
 	Navigate,
 } from "react-router-dom";
-import NavbarUtils from "./Component/NavbarUtils";
-import Navbar from "./Component/Navbar";
+import NavbarMerge from "./Component/NavbarMerge";
 import HomePopular from "./Component/HomePopular";
+import "./assets/design/style.css";
 
 const ReactRoute = () => {
 	return (
@@ -18,8 +18,7 @@ const ReactRoute = () => {
 						path="/home"
 						element={
 							<>
-								<NavbarUtils />
-								<Navbar />
+								<NavbarMerge />
 								<HomePopular />
 							</>
 						}
@@ -28,8 +27,7 @@ const ReactRoute = () => {
 						path="/popular"
 						element={
 							<>
-								<NavbarUtils />
-								<Navbar />
+								<NavbarMerge />
 							</>
 						}
 					/>
@@ -37,8 +35,7 @@ const ReactRoute = () => {
 						path="/manga"
 						element={
 							<>
-								<NavbarUtils />
-								<Navbar />
+								<NavbarMerge />
 							</>
 						}
 					/>
@@ -46,8 +43,7 @@ const ReactRoute = () => {
 						path="/manhwa"
 						element={
 							<>
-								<NavbarUtils />
-								<Navbar />
+								<NavbarMerge />
 							</>
 						}
 					/>
@@ -55,8 +51,7 @@ const ReactRoute = () => {
 						path="/manhua"
 						element={
 							<>
-								<NavbarUtils />
-								<Navbar />
+								<NavbarMerge />
 							</>
 						}
 					/>

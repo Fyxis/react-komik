@@ -1,6 +1,6 @@
 import RecentUpload from "./RecentUpload";
 import Popular from "./Popular";
-import "../assets/design/style.css";
+
 const HomePopular = () => {
 	return (
 		<>

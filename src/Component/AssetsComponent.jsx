@@ -3,5 +3,5 @@ import komikTesting from "../assets/picture/komiktesting.jpg";
 
 export default {
 	logo: logo,
-	testing: komikTesting
-}
+	testing: komikTesting,
+};
